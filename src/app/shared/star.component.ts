@@ -5,7 +5,7 @@ import {Component, Input, OnChanges, EventEmitter, Output} from '@angular/core';
   templateUrl: './star.component.html',
   styleUrls: ['./star.component.css']
 })
-export class StartComponent implements OnChanges {
+export class StarComponent implements OnChanges {
   @Input() rating: number;
   starWidth: number;
 
